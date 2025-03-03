@@ -1,3 +1,4 @@
+import cors from "cors";
 const {Server} = require("socket.io");
 
 const io = new Server(8000, {
